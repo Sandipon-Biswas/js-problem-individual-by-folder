@@ -1,0 +1,5 @@
+s = input()
+summands = s.split('+')
+summands.sort()
+result = '+'.join(summands)
+print(result)
